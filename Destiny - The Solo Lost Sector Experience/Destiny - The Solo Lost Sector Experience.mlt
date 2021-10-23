@@ -350,17 +350,23 @@ p, li { white-space: pre-wrap; }
     <blank length="00:00:05.950"/>
     <entry producer="chain10" in="00:00:00.333" out="00:00:00.533"/>
   </playlist>
+  <playlist id="playlist4">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">Music</property>
+    <blank length="00:00:00.017"/>
+  </playlist>
   <tractor id="tractor1" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:37.600">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
-    <property name="shotcut:scaleFactor">6.22877</property>
-    <property name="shotcut:trackHeight">85</property>
+    <property name="shotcut:scaleFactor">6.22876</property>
+    <property name="shotcut:trackHeight">65</property>
     <track producer="background"/>
     <track producer="playlist0"/>
     <track producer="playlist1"/>
     <track producer="playlist2"/>
     <track producer="playlist3" hide="video"/>
+    <track producer="playlist4" hide="video"/>
     <transition id="transition2">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -409,6 +415,13 @@ p, li { white-space: pre-wrap; }
     <transition id="transition8">
       <property name="a_track">0</property>
       <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition9">
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
