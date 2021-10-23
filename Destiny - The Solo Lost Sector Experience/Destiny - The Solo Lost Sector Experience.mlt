@@ -354,8 +354,8 @@
     <entry producer="chain21" in="00:00:00.000" out="00:00:03.733"/>
     <entry producer="chain22" in="00:00:00.000" out="00:04:46.350"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:20:44.733">
-    <property name="length">00:20:44.750</property>
+  <producer id="black" in="00:00:00.000" out="00:20:27.083">
+    <property name="length">00:20:27.100</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -364,7 +364,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:20:44.733"/>
+    <entry producer="black" in="00:00:00.000" out="00:20:27.083"/>
   </playlist>
   <chain id="chain23" out="00:20:37.600">
     <property name="length">00:20:37.617</property>
@@ -642,7 +642,6 @@
     <entry producer="chain29" in="00:03:18.317" out="00:03:22.433"/>
     <entry producer="chain30" in="00:03:22.450" out="00:04:15.600"/>
     <entry producer="producer2" in="00:00:36.517" out="00:00:39.467"/>
-    <blank length="00:00:17.650"/>
     <entry producer="chain31" in="00:04:36.233" out="00:04:38.467"/>
     <entry producer="chain32" in="00:04:38.483" out="00:04:39.583"/>
     <entry producer="producer3" in="00:37:16.800" out="00:37:24.933"/>
@@ -983,7 +982,7 @@
     <entry producer="chain43" in="00:00:00.000" out="00:00:06.017"/>
     <blank length="00:00:58.183"/>
     <entry producer="chain44" in="00:00:06.700" out="00:00:11.400"/>
-    <blank length="00:03:09.883"/>
+    <blank length="00:02:52.233"/>
     <entry producer="producer4" in="00:00:00.000" out="00:00:03.683"/>
     <blank length="00:00:13.917"/>
     <entry producer="chain45" in="00:00:00.000" out="00:00:01.250"/>
@@ -1142,9 +1141,9 @@
     <entry producer="chain50" in="00:00:00.000" out="00:00:03.183"/>
     <blank length="00:00:46.483"/>
     <entry producer="chain51" in="00:00:00.000" out="00:00:05.900"/>
-    <blank length="00:00:35.900"/>
+    <blank length="00:00:18.250"/>
     <entry producer="chain52" in="00:00:05.433" out="00:00:07.300"/>
-    <blank length="00:00:44.583"/>
+    <blank length="00:00:43.950"/>
     <entry producer="chain53" in="00:00:00.000" out="00:00:02.100"/>
     <entry producer="chain54" in="00:00:00.567" out="00:00:01.050"/>
   </playlist>
@@ -1180,7 +1179,7 @@
     <property name="shotcut:name">Music 1</property>
     <blank length="00:04:15.617"/>
     <entry producer="chain55" in="00:00:23.383" out="00:00:26.267"/>
-    <blank length="00:00:19.967"/>
+    <blank length="00:00:02.317"/>
     <entry producer="chain56" in="00:00:20.733" out="00:00:30.500"/>
   </playlist>
   <playlist id="playlist5">
@@ -2129,7 +2128,7 @@ p, li { white-space: pre-wrap; }
     <blank length="00:00:50.733"/>
     <entry producer="producer20" in="00:00:00.000" out="00:00:03.983"/>
     <entry producer="producer21" in="00:00:00.000" out="00:00:03.983"/>
-    <blank length="00:01:34.050"/>
+    <blank length="00:01:16.400"/>
     <entry producer="producer22" in="00:00:00.000" out="00:00:00.633"/>
   </playlist>
   <chain id="chain57" out="00:02:09.667">
@@ -2182,11 +2181,11 @@ p, li { white-space: pre-wrap; }
     <blank length="00:00:14.717"/>
     <entry producer="chain58" in="00:01:20.833" out="00:02:09.667"/>
   </playlist>
-  <tractor id="tractor2" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:44.733">
+  <tractor id="tractor2" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:27.083">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
-    <property name="shotcut:scaleFactor">0.33028</property>
+    <property name="shotcut:scaleFactor">0.422146</property>
     <property name="shotcut:trackHeight">45</property>
     <track producer="background"/>
     <track producer="playlist0"/>
