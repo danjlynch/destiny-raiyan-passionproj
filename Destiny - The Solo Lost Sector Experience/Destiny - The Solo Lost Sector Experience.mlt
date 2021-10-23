@@ -335,7 +335,7 @@
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
-      <property name="0">#00ef00</property>
+      <property name="0">#5bdf00</property>
       <property name="1">0.288</property>
       <property name="disable">0</property>
     </filter>
@@ -351,6 +351,22 @@
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter7" out="00:00:06.017">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.983=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter8" out="00:00:06.017">
+      <property name="start">1</property>
+      <property name="level">00:00:05.033=1;00:00:06.017=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </chain>
   <playlist id="playlist2">
@@ -403,7 +419,7 @@
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter7" out="00:00:02.983">
+    <filter id="filter9" out="00:00:02.983">
       <property name="argument"></property>
       <property name="geometry">17 806 1569 80 1</property>
       <property name="family">Sans</property>
@@ -441,7 +457,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter8" in="00:00:03.000" out="00:00:06.150">
+    <filter id="filter10" in="00:00:03.000" out="00:00:06.150">
       <property name="argument"></property>
       <property name="geometry">17 806 1569 80 1</property>
       <property name="family">Sans</property>
@@ -466,7 +482,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter9" in="00:00:03.000" out="00:00:06.150">
+    <filter id="filter11" in="00:00:03.000" out="00:00:06.150">
       <property name="start">1</property>
       <property name="level">00:00:02.833=1;00:00:03.150=0</property>
       <property name="mlt_service">brightness</property>
@@ -506,9 +522,9 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter10" out="00:00:07.450">
+    <filter id="filter12" out="00:00:07.450">
       <property name="argument"></property>
-      <property name="geometry">744 431 431 96 1</property>
+      <property name="geometry">767 290 431 96 1</property>
       <property name="family">Sans</property>
       <property name="size">48</property>
       <property name="weight">400</property>
@@ -531,7 +547,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter11" out="00:00:07.450">
+    <filter id="filter13" out="00:00:07.450">
       <property name="argument"></property>
       <property name="geometry">168 747 1322 93 1</property>
       <property name="family">Sans</property>
@@ -569,7 +585,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter12" out="00:00:04.800">
+    <filter id="filter14" out="00:00:04.800">
       <property name="argument"></property>
       <property name="geometry">420 727 431 96 1</property>
       <property name="family">Sans</property>
@@ -626,7 +642,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter13" out="00:00:01.633">
+    <filter id="filter15" out="00:00:01.633">
       <property name="argument"></property>
       <property name="geometry">456 293 489 150 1</property>
       <property name="family">Sans</property>
