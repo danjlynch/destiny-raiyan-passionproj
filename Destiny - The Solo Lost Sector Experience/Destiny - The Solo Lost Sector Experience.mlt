@@ -113,6 +113,8 @@
     <property name="mute_on_pause">0</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">c137f0e5e3b34e202f8a8ebf37094086</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">AAAAA.mp4</property>
   </chain>
   <chain id="chain7" out="00:00:30.033">
     <property name="length">00:00:30.050</property>
@@ -691,6 +693,20 @@
       <property name="shotcut:animOut">00:00:00.333</property>
     </filter>
   </chain>
+  <chain id="chain35" out="00:00:03.183">
+    <property name="length">00:00:03.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/Addins/AAAAA.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">c137f0e5e3b34e202f8a8ebf37094086</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">AAAAA.mp4</property>
+  </chain>
   <playlist id="playlist3">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">Overlay Audio</property>
@@ -700,8 +716,10 @@
     <entry producer="chain32" in="00:00:00.000" out="00:00:01.267"/>
     <blank length="00:00:32.000"/>
     <entry producer="chain33" in="00:00:00.150" out="00:00:04.467"/>
-    <blank length="00:00:53.200"/>
+    <blank length="00:00:52.250"/>
     <entry producer="chain34" in="00:01:04.250" out="00:01:08.117"/>
+    <blank length="00:00:03.800"/>
+    <entry producer="chain35" in="00:00:00.000" out="00:00:03.183"/>
   </playlist>
   <playlist id="playlist4">
     <property name="shotcut:audio">1</property>
@@ -1202,7 +1220,7 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; font-weight:600; color:#00ff00;&quot;&gt;Shall we begin?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; font-weight:600; color:#aa0000;&quot;&gt;Shall we begin?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
