@@ -141,6 +141,12 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
   </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">B-Roll</property>
+    <blank length="00:00:06.483"/>
+    <entry producer="chain6" in="00:00:06.483" out="00:20:37.600"/>
+  </playlist>
   <chain id="chain7" out="00:20:37.600">
     <property name="length">00:20:37.617</property>
     <property name="eof">pause</property>
@@ -171,17 +177,11 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
   </chain>
-  <playlist id="playlist0">
-    <property name="shotcut:video">1</property>
-    <property name="shotcut:name">B-Roll</property>
-    <entry producer="chain6" in="00:00:00.000" out="00:00:05.617"/>
-    <entry producer="chain7" in="00:00:05.633" out="00:00:06.467"/>
-    <entry producer="chain8" in="00:00:06.483" out="00:20:37.600"/>
-  </playlist>
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Output</property>
-    <blank length="00:00:00.017"/>
+    <entry producer="chain7" in="00:00:00.000" out="00:00:05.617"/>
+    <entry producer="chain8" in="00:00:05.633" out="00:00:06.467"/>
   </playlist>
   <producer id="producer2" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
@@ -216,7 +216,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:30pt; color:#ffffff;&quot;&gt;Raiyan Lynch&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:30pt; color:#ffffff;&quot;&gt;Raiyan Lynch&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
@@ -254,7 +254,7 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:30pt; color:#ffffff;&quot;&gt;The &lt;/span&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:30pt; font-weight:600; color:#ffaa00;&quot;&gt;Solo&lt;/span&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:30pt; color:#ffffff;&quot;&gt; Legendary Lost Sector Experience&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:30pt; color:#ffffff;&quot;&gt;The &lt;/span&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:30pt; font-weight:600; color:#ffaa00;&quot;&gt;Solo&lt;/span&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:30pt; color:#ffffff;&quot;&gt; Legendary Lost Sector Experience&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
