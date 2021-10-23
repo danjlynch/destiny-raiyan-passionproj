@@ -896,6 +896,13 @@
       <property name="alpha">1</property>
       <property name="shotcut:animOut">00:00:00.167</property>
     </filter>
+    <filter id="filter14" in="00:00:06.700" out="00:00:11.400">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">muteVolume</property>
+      <property name="gain">0</property>
+    </filter>
   </chain>
   <producer id="producer4" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
@@ -910,7 +917,7 @@
     <property name="shotcut:hash">939784fb44c10e5c4d7a16890482aec8</property>
     <property name="shotcut:caption">sad face.jpg</property>
     <property name="xml">was here</property>
-    <filter id="filter14" out="00:00:03.683">
+    <filter id="filter15" out="00:00:03.683">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -918,7 +925,7 @@
       <property name="1">0.288</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter15" out="00:00:03.683">
+    <filter id="filter16" out="00:00:03.683">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -944,7 +951,7 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">41986657f1bbc0ecf17876ce426e73a4</property>
     <property name="shotcut:caption">kermit.mp4</property>
-    <filter id="filter16" out="00:00:01.250">
+    <filter id="filter17" out="00:00:01.250">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -952,7 +959,7 @@
       <property name="1">0.288</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter17" out="00:00:01.250">
+    <filter id="filter18" out="00:00:01.250">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1034,14 +1041,14 @@
     <property name="shotcut:hash">ac8ae32ae7e7e6a1f557b1a17b5fabb3</property>
     <property name="shotcut:caption">shall we begin.mp4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter18" in="00:01:04.250" out="00:01:08.117">
+    <filter id="filter19" in="00:01:04.250" out="00:01:08.117">
       <property name="mlt_service">ladspa.1891</property>
       <property name="0">2441</property>
       <property name="1">1</property>
       <property name="wetness">1</property>
       <property name="instances">2</property>
     </filter>
-    <filter id="filter19" in="00:01:04.250" out="00:01:08.117">
+    <filter id="filter20" in="00:01:04.250" out="00:01:08.117">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:03.550=0;00:00:03.867=-60</property>
@@ -1193,7 +1200,7 @@
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter20" out="00:00:02.983">
+    <filter id="filter21" out="00:00:02.983">
       <property name="argument"></property>
       <property name="geometry">17 806 1569 80 1</property>
       <property name="family">Sans</property>
@@ -1231,7 +1238,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter21" in="00:00:03.000" out="00:00:06.150">
+    <filter id="filter22" in="00:00:03.000" out="00:00:06.150">
       <property name="argument"></property>
       <property name="geometry">17 806 1569 80 1</property>
       <property name="family">Sans</property>
@@ -1256,7 +1263,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter22" in="00:00:03.000" out="00:00:06.150">
+    <filter id="filter23" in="00:00:03.000" out="00:00:06.150">
       <property name="start">1</property>
       <property name="level">00:00:02.833=1;00:00:03.150=0</property>
       <property name="mlt_service">brightness</property>
@@ -1296,7 +1303,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter23" out="00:00:07.450">
+    <filter id="filter24" out="00:00:07.450">
       <property name="argument"></property>
       <property name="geometry">767 290 431 96 1</property>
       <property name="family">Sans</property>
@@ -1321,7 +1328,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter24" out="00:00:07.450">
+    <filter id="filter25" out="00:00:07.450">
       <property name="argument"></property>
       <property name="geometry">168 747 1322 93 1</property>
       <property name="family">Sans</property>
@@ -1359,7 +1366,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter25" out="00:00:04.800">
+    <filter id="filter26" out="00:00:04.800">
       <property name="argument"></property>
       <property name="geometry">420 727 431 96 1</property>
       <property name="family">Sans</property>
@@ -1416,7 +1423,254 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter26" out="00:00:01.617">
+    <filter id="filter27" out="00:00:03.733">
+      <property name="argument"></property>
+      <property name="geometry">32 486 501 172 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; font-weight:600; color:#ffffff;&quot;&gt;Shhh... &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; font-weight:600; color:#ffffff;&quot;&gt;Here it comes...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter28" out="00:00:00.983">
+      <property name="argument"></property>
+      <property name="geometry">32 486 501 172 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; font-weight:600; color:#ffffff;&quot;&gt;!! I Excite !!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter29" out="00:00:00.983">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-97 -52.125 1780 1001.25 1;00:00:00.083=-124 -106 1840 1035 1;00:00:00.167=-2 -117 1840 1035 1;00:00:00.233=-117 -81 1840 1035 1;00:00:00.317=-120 -124 1840 1035 1;00:00:00.400=-164 -50 1840 1035 1;00:00:00.483=-106 -100 1840 1035 1;00:00:00.567=-80 -55 1840 1035 1;00:00:00.633=-48 -55 1840 1035 1;00:00:00.717=-52 -32 1840 1035 1;00:00:00.800=-84 -64 1840 1035 1;00:00:00.883=-94 -32 1840 1035 1;00:00:00.967=-175 -84 1840 1035 1;00:00:01.033=-120 -67 1840 1035 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter30" in="00:00:01.000" out="00:00:01.983">
+      <property name="argument"></property>
+      <property name="geometry">32 486 501 172 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; font-weight:600; color:#ffffff;&quot;&gt;!! I Excite !!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter31" in="00:00:01.000" out="00:00:01.983">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-127 -69 1840 1035 1;00:00:00.083=-124 -106 1840 1035 1;00:00:00.167=-2 -117 1840 1035 1;00:00:00.233=-117 -81 1840 1035 1;00:00:00.317=-120 -124 1840 1035 1;00:00:00.400=-164 -50 1840 1035 1;00:00:00.483=-106 -100 1840 1035 1;00:00:00.567=-80 -55 1840 1035 1;00:00:00.633=-48 -55 1840 1035 1;00:00:00.717=-52 -32 1840 1035 1;00:00:00.800=-84 -64 1840 1035 1;00:00:00.883=-94 -32 1840 1035 1;00:00:00.967=-175 -84 1840 1035 1;00:00:01.000=</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter32" in="00:00:02.000" out="00:00:02.983">
+      <property name="argument"></property>
+      <property name="geometry">32 486 501 172 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; font-weight:600; color:#ffffff;&quot;&gt;!! I Excite !!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter33" in="00:00:02.000" out="00:00:02.983">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-127 -69 1840 1035 1;00:00:00.083=-124 -106 1840 1035 1;00:00:00.167=-2 -117 1840 1035 1;00:00:00.233=-117 -81 1840 1035 1;00:00:00.317=-120 -124 1840 1035 1;00:00:00.400=-164 -50 1840 1035 1;00:00:00.483=-106 -100 1840 1035 1;00:00:00.567=-80 -55 1840 1035 1;00:00:00.633=-48 -55 1840 1035 1;00:00:00.717=-52 -32 1840 1035 1;00:00:00.800=-84 -64 1840 1035 1;00:00:00.883=-94 -32 1840 1035 1;00:00:00.967=-175 -84 1840 1035 1;00:00:01.000=</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter34" in="00:00:03.000" out="00:00:03.733">
+      <property name="argument"></property>
+      <property name="geometry">32 486 501 172 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; font-weight:600; color:#ffffff;&quot;&gt;!! I Excite !!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter35" in="00:00:03.000" out="00:00:03.733">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-127 -69 1840 1035 1;00:00:00.083=-124 -106 1840 1035 1;00:00:00.167=-2 -117 1840 1035 1;00:00:00.233=-117 -81 1840 1035 1;00:00:00.317=-120 -124 1840 1035 1;00:00:00.400=-164 -50 1840 1035 1;00:00:00.483=-106 -100 1840 1035 1;00:00:00.567=-80 -55 1840 1035 1;00:00:00.633=-48 -55 1840 1035 1;00:00:00.717=-52 -32 1840 1035 1;00:00:00.750=</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <producer id="producer14" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter36" out="00:00:01.617">
       <property name="argument"></property>
       <property name="geometry">456 293 489 150 1</property>
       <property name="family">Sans</property>
@@ -1442,7 +1696,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
   </producer>
-  <producer id="producer10" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer15" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -1454,7 +1708,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter27" out="00:00:00.317">
+    <filter id="filter37" out="00:00:00.317">
       <property name="argument"></property>
       <property name="geometry">591 587 186 93 1</property>
       <property name="family">Sans</property>
@@ -1479,7 +1733,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter28" out="00:00:00.317">
+    <filter id="filter38" out="00:00:00.317">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1494,7 +1748,7 @@ p, li { white-space: pre-wrap; }
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer11" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer16" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -1506,7 +1760,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter29" in="00:00:00.333" out="00:00:00.350">
+    <filter id="filter39" in="00:00:00.333" out="00:00:00.350">
       <property name="argument"></property>
       <property name="geometry">591 587 186 93 1</property>
       <property name="family">Sans</property>
@@ -1531,7 +1785,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter30" in="00:00:00.333" out="00:00:00.350">
+    <filter id="filter40" in="00:00:00.333" out="00:00:00.350">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1546,7 +1800,7 @@ p, li { white-space: pre-wrap; }
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer12" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer17" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -1558,7 +1812,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter31" out="00:00:01.367">
+    <filter id="filter41" out="00:00:01.367">
       <property name="argument"></property>
       <property name="geometry">864 615 411 178 1</property>
       <property name="family">Sans</property>
@@ -1583,7 +1837,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter32" out="00:00:01.367">
+    <filter id="filter42" out="00:00:01.367">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1598,7 +1852,7 @@ p, li { white-space: pre-wrap; }
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer13" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer18" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -1610,7 +1864,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter33" in="00:00:01.050" out="00:00:02.033">
+    <filter id="filter43" in="00:00:01.050" out="00:00:02.033">
       <property name="argument"></property>
       <property name="geometry">864 615 411 178 1</property>
       <property name="family">Sans</property>
@@ -1635,7 +1889,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter34" in="00:00:01.050" out="00:00:02.033">
+    <filter id="filter44" in="00:00:01.050" out="00:00:02.033">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1650,7 +1904,7 @@ p, li { white-space: pre-wrap; }
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer14" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer19" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -1662,7 +1916,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter35" in="00:00:02.050" out="00:00:02.917">
+    <filter id="filter45" in="00:00:02.050" out="00:00:02.917">
       <property name="argument"></property>
       <property name="geometry">864 615 411 178 1</property>
       <property name="family">Sans</property>
@@ -1687,7 +1941,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter36" in="00:00:02.050" out="00:00:02.917">
+    <filter id="filter46" in="00:00:02.050" out="00:00:02.917">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1702,7 +1956,7 @@ p, li { white-space: pre-wrap; }
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer15" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer20" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -1714,7 +1968,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter37" out="00:00:03.983">
+    <filter id="filter47" out="00:00:03.983">
       <property name="argument"></property>
       <property name="geometry">924 239 526 246 1</property>
       <property name="family">Sans</property>
@@ -1741,7 +1995,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
   </producer>
-  <producer id="producer16" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer21" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -1753,7 +2007,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter38" out="00:00:03.983">
+    <filter id="filter48" out="00:00:03.983">
       <property name="argument"></property>
       <property name="geometry">779 515 519 93 1</property>
       <property name="family">Sans</property>
@@ -1778,7 +2032,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter39" out="00:00:03.983">
+    <filter id="filter49" out="00:00:03.983">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.983=1</property>
       <property name="mlt_service">brightness</property>
@@ -1786,7 +2040,7 @@ p, li { white-space: pre-wrap; }
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter40" out="00:00:03.983">
+    <filter id="filter50" out="00:00:03.983">
       <property name="start">1</property>
       <property name="level">00:00:03.500=1;00:00:03.983=0</property>
       <property name="mlt_service">brightness</property>
@@ -1795,7 +2049,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animOut">00:00:00.500</property>
     </filter>
   </producer>
-  <producer id="producer17" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer22" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -1807,7 +2061,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter41" out="00:00:00.633">
+    <filter id="filter51" out="00:00:00.633">
       <property name="argument"></property>
       <property name="geometry">899 351 332 101 1</property>
       <property name="family">Sans</property>
@@ -1832,7 +2086,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter42" out="00:00:00.633">
+    <filter id="filter52" out="00:00:00.633">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1857,20 +2111,26 @@ p, li { white-space: pre-wrap; }
     <entry producer="producer7" in="00:00:00.000" out="00:00:07.050"/>
     <entry producer="tractor1" in="00:00:00.000" out="00:00:00.383"/>
     <entry producer="producer8" in="00:00:00.467" out="00:00:04.800"/>
-    <blank length="00:01:10.150"/>
-    <entry producer="producer9" in="00:00:00.000" out="00:00:01.617"/>
+    <blank length="00:00:44.767"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:03.733"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:00.983"/>
+    <entry producer="producer11" in="00:00:01.000" out="00:00:01.983"/>
+    <entry producer="producer12" in="00:00:02.000" out="00:00:02.983"/>
+    <entry producer="producer13" in="00:00:03.000" out="00:00:03.733"/>
+    <blank length="00:00:17.883"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:01.617"/>
     <blank length="00:00:04.667"/>
-    <entry producer="producer10" in="00:00:00.000" out="00:00:00.317"/>
-    <entry producer="producer11" in="00:00:00.333" out="00:00:00.350"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:00.317"/>
+    <entry producer="producer16" in="00:00:00.333" out="00:00:00.350"/>
     <blank length="00:00:22.900"/>
-    <entry producer="producer12" in="00:00:00.000" out="00:00:01.033"/>
-    <entry producer="producer13" in="00:00:01.050" out="00:00:02.033"/>
-    <entry producer="producer14" in="00:00:02.050" out="00:00:02.917"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:00:01.033"/>
+    <entry producer="producer18" in="00:00:01.050" out="00:00:02.033"/>
+    <entry producer="producer19" in="00:00:02.050" out="00:00:02.917"/>
     <blank length="00:00:50.733"/>
-    <entry producer="producer15" in="00:00:00.000" out="00:00:03.983"/>
-    <entry producer="producer16" in="00:00:00.000" out="00:00:03.983"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:03.983"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:00:03.983"/>
     <blank length="00:01:34.050"/>
-    <entry producer="producer17" in="00:00:00.000" out="00:00:00.633"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:00:00.633"/>
   </playlist>
   <chain id="chain57" out="00:02:09.667">
     <property name="length">00:02:09.683</property>
@@ -1884,18 +2144,49 @@ p, li { white-space: pre-wrap; }
     <property name="xml">was here</property>
     <property name="shotcut:hash">70a2bbcd3897732939c2e306c2a93a9a</property>
     <property name="shotcut:caption">monster's inc theme.mp4</property>
+    <filter id="filter53" out="00:01:20.817">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:01:20.333=0;00:01:20.817=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:00.500</property>
+    </filter>
+  </chain>
+  <chain id="chain58" out="00:02:09.667">
+    <property name="length">00:02:09.683</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/Addins/monster's inc theme.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">70a2bbcd3897732939c2e306c2a93a9a</property>
+    <property name="shotcut:caption">monster's inc theme.mp4</property>
+    <filter id="filter54" in="00:01:20.833" out="00:02:09.667">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.483=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">00:00:00.500</property>
+    </filter>
   </chain>
   <playlist id="playlist7">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">Music Main</property>
     <blank length="00:00:00.017"/>
-    <entry producer="chain57" in="00:00:00.000" out="00:02:09.667"/>
+    <entry producer="chain57" in="00:00:00.000" out="00:01:20.817"/>
+    <blank length="00:00:14.717"/>
+    <entry producer="chain58" in="00:01:20.833" out="00:02:09.667"/>
   </playlist>
   <tractor id="tractor2" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:44.733">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
-    <property name="shotcut:scaleFactor">0.422146</property>
+    <property name="shotcut:scaleFactor">0.33028</property>
     <property name="shotcut:trackHeight">45</property>
     <track producer="background"/>
     <track producer="playlist0"/>
