@@ -343,33 +343,12 @@ p, li { white-space: pre-wrap; }
     <property name="shotcut:hash">724ebabcdf5e18998fbbbb84ae7947b1</property>
     <property name="shotcut:caption">COD Hitmarker.mp4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter5" out="00:00:00.783">
-      <property name="version">0.3</property>
-      <property name="mlt_service">frei0r.bluescreen0r</property>
-      <property name="threads">0</property>
-      <property name="0">#00ef00</property>
-      <property name="1">0.288</property>
-      <property name="disable">0</property>
-    </filter>
-    <filter id="filter6" out="00:00:00.783">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">764.771 255.55 480 270 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-    </filter>
   </chain>
   <playlist id="playlist3">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">Overlay Audio</property>
-    <blank length="00:00:05.617"/>
-    <entry producer="chain10" in="00:00:00.000" out="00:00:00.783"/>
+    <blank length="00:00:05.950"/>
+    <entry producer="chain10" in="00:00:00.333" out="00:00:00.533"/>
   </playlist>
   <tractor id="tractor1" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:37.600">
     <property name="shotcut">1</property>
