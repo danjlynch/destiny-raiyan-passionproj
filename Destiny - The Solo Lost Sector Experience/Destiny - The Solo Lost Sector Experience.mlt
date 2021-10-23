@@ -801,6 +801,7 @@
     <property name="creation_time">2021-10-23T19:49:52</property>
     <property name="shotcut:hash">939784fb44c10e5c4d7a16890482aec8</property>
     <property name="shotcut:caption">sad face.jpg</property>
+    <property name="xml">was here</property>
     <filter id="filter12" out="00:00:03.683">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
@@ -832,7 +833,7 @@
     <entry producer="chain38" in="00:00:00.000" out="00:00:06.017"/>
     <blank length="00:00:58.183"/>
     <entry producer="chain39" in="00:00:06.700" out="00:00:11.400"/>
-    <blank length="00:03:28.933"/>
+    <blank length="00:03:09.883"/>
     <entry producer="producer3" in="00:00:00.000" out="00:00:03.683"/>
   </playlist>
   <chain id="chain40" out="00:00:01.217">
@@ -1708,7 +1709,7 @@ p, li { white-space: pre-wrap; }
     <track producer="playlist3" hide="video"/>
     <track producer="playlist4" hide="video"/>
     <track producer="playlist5" hide="video"/>
-    <track producer="playlist6"/>
+    <track producer="playlist6" hide="audio"/>
     <transition id="transition4">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
