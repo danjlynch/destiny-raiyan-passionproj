@@ -932,6 +932,34 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">ayo the pizza here servitor.mp4</property>
   </chain>
+  <chain id="chain46" out="00:00:02.333">
+    <property name="length">00:00:02.350</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/Addins/run, ruun.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b2ea3a69985060515280cede3a7124fb</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">run, ruun.mp4</property>
+  </chain>
+  <chain id="chain47" out="00:00:02.933">
+    <property name="length">00:00:02.950</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/Addins/oof.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5c5c7966dbfaebdd8690b3a54af2b47d</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">oof.mp4</property>
+  </chain>
   <playlist id="playlist3">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">Overlay Audio</property>
@@ -947,8 +975,11 @@
     <entry producer="chain44" in="00:00:00.000" out="00:00:03.183"/>
     <blank length="00:00:46.483"/>
     <entry producer="chain45" in="00:00:00.000" out="00:00:05.900"/>
+    <blank length="00:01:22.183"/>
+    <entry producer="chain46" in="00:00:00.000" out="00:00:02.100"/>
+    <entry producer="chain47" in="00:00:00.567" out="00:00:01.050"/>
   </playlist>
-  <chain id="chain46" out="00:04:44.583">
+  <chain id="chain48" out="00:04:44.583">
     <property name="length">00:04:44.600</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/my heart will go on shittyfluted.mp4</property>
@@ -965,7 +996,7 @@
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">Music 1</property>
     <blank length="00:04:38.483"/>
-    <entry producer="chain46" in="00:00:20.733" out="00:00:30.500"/>
+    <entry producer="chain48" in="00:00:20.733" out="00:00:30.500"/>
   </playlist>
   <playlist id="playlist5">
     <property name="shotcut:audio">1</property>
