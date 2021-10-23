@@ -1167,7 +1167,7 @@
     <property name="shotcut:name">Music 1</property>
     <blank length="00:04:15.617"/>
     <entry producer="chain55" in="00:00:23.383" out="00:00:26.267"/>
-    <blank length="00:04:42.950"/>
+    <blank length="00:00:19.967"/>
     <entry producer="chain56" in="00:00:20.733" out="00:00:30.500"/>
   </playlist>
   <playlist id="playlist5">
