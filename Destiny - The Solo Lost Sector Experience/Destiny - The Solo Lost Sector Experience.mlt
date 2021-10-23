@@ -183,6 +183,109 @@
     <property name="shotcut:name">Output</property>
     <blank length="00:00:00.017"/>
   </playlist>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter0" out="00:00:02.983">
+      <property name="argument"></property>
+      <property name="geometry">17 806 1569 80 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:30pt; color:#ffffff;&quot;&gt;Raiyan Lynch&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter1" in="00:00:03.000" out="00:00:06.150">
+      <property name="argument"></property>
+      <property name="geometry">17 806 1569 80 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:30pt; color:#ffffff;&quot;&gt;The &lt;/span&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:30pt; font-weight:600; color:#ffaa00;&quot;&gt;Solo&lt;/span&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:30pt; color:#ffffff;&quot;&gt; Legendary Lost Sector Experience&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter2" in="00:00:03.000" out="00:00:06.150">
+      <property name="start">1</property>
+      <property name="level">00:00:02.833=1;00:00:03.150=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:00.333</property>
+    </filter>
+  </producer>
+  <tractor id="tractor0" in="00:00:00.000" out="00:00:00.167">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer2" in="00:00:02.817" out="00:00:02.983"/>
+    <track producer="producer3" in="00:00:03.000" out="00:00:03.167"/>
+    <transition id="transition0" out="00:00:00.167">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.167">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
   <chain id="chain9" out="00:00:01.217">
     <property name="length">00:00:01.233</property>
     <property name="eof">pause</property>
@@ -196,7 +299,7 @@
     <property name="shotcut:hash">724ebabcdf5e18998fbbbb84ae7947b1</property>
     <property name="shotcut:caption">COD Hitmarker.mp4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter0" in="00:00:00.150" out="00:00:00.500">
+    <filter id="filter3" in="00:00:00.150" out="00:00:00.250">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -204,7 +307,7 @@
       <property name="1">0.288</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter1" in="00:00:00.150" out="00:00:00.500">
+    <filter id="filter4" in="00:00:00.150" out="00:00:00.250">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -222,8 +325,10 @@
   <playlist id="playlist2">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Overlay</property>
-    <blank length="00:00:05.983"/>
-    <entry producer="chain9" in="00:00:00.150" out="00:00:00.500"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:02.800"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.167"/>
+    <entry producer="producer3" in="00:00:03.183" out="00:00:06.150"/>
+    <entry producer="chain9" in="00:00:00.150" out="00:00:00.250"/>
   </playlist>
   <chain id="chain10" out="00:00:01.217">
     <property name="length">00:00:01.233</property>
@@ -238,7 +343,7 @@
     <property name="shotcut:hash">724ebabcdf5e18998fbbbb84ae7947b1</property>
     <property name="shotcut:caption">COD Hitmarker.mp4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter2" out="00:00:00.783">
+    <filter id="filter5" out="00:00:00.783">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -246,7 +351,7 @@
       <property name="1">0.288</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter3" out="00:00:00.783">
+    <filter id="filter6" out="00:00:00.783">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -266,25 +371,25 @@
     <blank length="00:00:05.617"/>
     <entry producer="chain10" in="00:00:00.000" out="00:00:00.783"/>
   </playlist>
-  <tractor id="tractor0" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:37.600">
+  <tractor id="tractor1" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:37.600">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
-    <property name="shotcut:scaleFactor">6.85755</property>
+    <property name="shotcut:scaleFactor">6.22877</property>
     <property name="shotcut:trackHeight">85</property>
     <track producer="background"/>
     <track producer="playlist0"/>
     <track producer="playlist1"/>
     <track producer="playlist2"/>
     <track producer="playlist3" hide="video"/>
-    <transition id="transition0">
+    <transition id="transition2">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition1">
+    <transition id="transition3">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="version">0.9</property>
@@ -292,37 +397,37 @@
       <property name="threads">0</property>
       <property name="disable">1</property>
     </transition>
-    <transition id="transition2">
-      <property name="a_track">0</property>
-      <property name="b_track">2</property>
-      <property name="mlt_service">mix</property>
-      <property name="always_active">1</property>
-      <property name="sum">1</property>
-    </transition>
-    <transition id="transition3">
-      <property name="a_track">1</property>
-      <property name="b_track">2</property>
-      <property name="version">0.9</property>
-      <property name="mlt_service">frei0r.cairoblend</property>
-      <property name="threads">0</property>
-      <property name="disable">0</property>
-    </transition>
     <transition id="transition4">
       <property name="a_track">0</property>
-      <property name="b_track">3</property>
+      <property name="b_track">2</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
     <transition id="transition5">
       <property name="a_track">1</property>
-      <property name="b_track">3</property>
+      <property name="b_track">2</property>
       <property name="version">0.9</property>
       <property name="mlt_service">frei0r.cairoblend</property>
       <property name="threads">0</property>
       <property name="disable">0</property>
     </transition>
     <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition8">
       <property name="a_track">0</property>
       <property name="b_track">4</property>
       <property name="mlt_service">mix</property>
