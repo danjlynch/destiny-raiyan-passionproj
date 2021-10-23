@@ -542,6 +542,42 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
   </chain>
+  <chain id="chain32" out="00:20:37.600">
+    <property name="length">00:20:37.617</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/BRoll/Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">47a693d9bde7de68f7e3d990f733e881</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2021-10-11T20:34:14</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+    <filter id="filter2" in="00:04:44.383" out="00:04:46.250">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-18.1</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain33" out="00:20:37.600">
+    <property name="length">00:20:37.617</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/BRoll/Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">47a693d9bde7de68f7e3d990f733e881</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2021-10-11T20:34:14</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+  </chain>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">B-Roll</property>
@@ -559,38 +595,10 @@
     <entry producer="chain29" in="00:03:22.450" out="00:04:38.467"/>
     <entry producer="chain30" in="00:04:38.483" out="00:04:39.583"/>
     <entry producer="producer2" in="00:37:16.800" out="00:37:24.933"/>
-    <entry producer="chain31" in="00:04:40.617" out="00:20:37.600"/>
+    <entry producer="chain31" in="00:04:40.617" out="00:04:44.367"/>
+    <entry producer="chain32" in="00:04:44.383" out="00:04:46.250"/>
+    <entry producer="chain33" in="00:04:46.267" out="00:20:37.600"/>
   </playlist>
-  <chain id="chain32" out="00:20:37.600">
-    <property name="length">00:20:37.617</property>
-    <property name="eof">pause</property>
-    <property name="resource">D:/Videos/Projects/Destiny/BRoll/Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="shotcut:hash">47a693d9bde7de68f7e3d990f733e881</property>
-    <property name="ignore_points">0</property>
-    <property name="creation_time">2021-10-11T20:34:14</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
-  </chain>
-  <chain id="chain33" out="00:20:37.600">
-    <property name="length">00:20:37.617</property>
-    <property name="eof">pause</property>
-    <property name="resource">D:/Videos/Projects/Destiny/BRoll/Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="shotcut:hash">47a693d9bde7de68f7e3d990f733e881</property>
-    <property name="ignore_points">0</property>
-    <property name="creation_time">2021-10-11T20:34:14</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
-  </chain>
   <chain id="chain34" out="00:20:37.600">
     <property name="length">00:20:37.617</property>
     <property name="eof">pause</property>
@@ -635,7 +643,37 @@
     <property name="creation_time">2021-10-11T20:34:14</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
-    <filter id="filter2" in="00:01:46.233" out="00:01:47.833">
+  </chain>
+  <chain id="chain37" out="00:20:37.600">
+    <property name="length">00:20:37.617</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/BRoll/Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">47a693d9bde7de68f7e3d990f733e881</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2021-10-11T20:34:14</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+  </chain>
+  <chain id="chain38" out="00:20:37.600">
+    <property name="length">00:20:37.617</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/BRoll/Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">47a693d9bde7de68f7e3d990f733e881</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2021-10-11T20:34:14</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+    <filter id="filter3" in="00:01:46.233" out="00:01:47.833">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -649,7 +687,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">00:00:00.000=0;00:00:01.017=0;00:00:01.417=0;00:00:01.600=0</property>
     </filter>
-    <filter id="filter3" in="00:01:46.233" out="00:01:47.833">
+    <filter id="filter4" in="00:01:46.233" out="00:01:47.833">
       <property name="start">1</property>
       <property name="level">00:00:01.200=1;00:00:01.600=0</property>
       <property name="mlt_service">brightness</property>
@@ -658,7 +696,7 @@
       <property name="shotcut:animOut">00:00:00.417</property>
     </filter>
   </chain>
-  <chain id="chain37" out="00:20:37.600">
+  <chain id="chain39" out="00:20:37.600">
     <property name="length">00:20:37.617</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/BRoll/Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
@@ -676,17 +714,17 @@
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Output</property>
-    <entry producer="chain32" in="00:00:00.000" out="00:00:05.617"/>
-    <entry producer="chain33" in="00:00:05.633" out="00:00:06.467"/>
+    <entry producer="chain34" in="00:00:00.000" out="00:00:05.617"/>
+    <entry producer="chain35" in="00:00:05.633" out="00:00:06.467"/>
     <blank length="00:00:17.783"/>
-    <entry producer="chain34" in="00:00:24.267" out="00:00:36.067"/>
+    <entry producer="chain36" in="00:00:24.267" out="00:00:36.067"/>
     <blank length="00:01:06.383"/>
-    <entry producer="chain35" in="00:01:42.467" out="00:01:46.217"/>
-    <entry producer="chain36" in="00:01:46.233" out="00:01:47.833"/>
+    <entry producer="chain37" in="00:01:42.467" out="00:01:46.217"/>
+    <entry producer="chain38" in="00:01:46.233" out="00:01:47.833"/>
     <blank length="00:00:27.900"/>
-    <entry producer="chain37" in="00:02:15.750" out="00:02:18.667"/>
+    <entry producer="chain39" in="00:02:15.750" out="00:02:18.667"/>
   </playlist>
-  <chain id="chain38" out="00:00:01.217">
+  <chain id="chain40" out="00:00:01.217">
     <property name="length">00:00:01.233</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/COD Hitmarker.mp4</property>
@@ -699,7 +737,7 @@
     <property name="shotcut:hash">724ebabcdf5e18998fbbbb84ae7947b1</property>
     <property name="shotcut:caption">COD Hitmarker.mp4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter4" in="00:00:00.150" out="00:00:00.250">
+    <filter id="filter5" in="00:00:00.150" out="00:00:00.250">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -707,7 +745,7 @@
       <property name="1">0.288</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter5" in="00:00:00.150" out="00:00:00.250">
+    <filter id="filter6" in="00:00:00.150" out="00:00:00.250">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -722,7 +760,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </chain>
-  <chain id="chain39" out="00:00:06.017">
+  <chain id="chain41" out="00:00:06.017">
     <property name="length">00:00:06.033</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/Facepalm.mp4</property>
@@ -735,7 +773,7 @@
     <property name="shotcut:hash">412993eecd366a6588bd07773c5eb18f</property>
     <property name="shotcut:caption">Facepalm.mp4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter6" out="00:00:06.017">
+    <filter id="filter7" out="00:00:06.017">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -743,7 +781,7 @@
       <property name="1">0.288</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter7" out="00:00:06.017">
+    <filter id="filter8" out="00:00:06.017">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -756,7 +794,7 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter8" out="00:00:06.017">
+    <filter id="filter9" out="00:00:06.017">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.983=1</property>
       <property name="mlt_service">brightness</property>
@@ -764,7 +802,7 @@
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter9" out="00:00:06.017">
+    <filter id="filter10" out="00:00:06.017">
       <property name="start">1</property>
       <property name="level">00:00:05.033=1;00:00:06.017=0</property>
       <property name="mlt_service">brightness</property>
@@ -773,7 +811,7 @@
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </chain>
-  <chain id="chain40" out="00:00:19.217">
+  <chain id="chain42" out="00:00:19.217">
     <property name="length">00:00:19.233</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/black guy dancing.mp4</property>
@@ -785,7 +823,7 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">a1cc5e2ab3ec3eebc8cfbb9a5c5f8ab0</property>
     <property name="shotcut:caption">black guy dancing.mp4</property>
-    <filter id="filter10" in="00:00:06.700" out="00:00:11.400">
+    <filter id="filter11" in="00:00:06.700" out="00:00:11.400">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -793,7 +831,7 @@
       <property name="1">0.288</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter11" in="00:00:06.700" out="00:00:11.400">
+    <filter id="filter12" in="00:00:06.700" out="00:00:11.400">
       <property name="start">1</property>
       <property name="level">00:00:04.550=1;00:00:04.700=0</property>
       <property name="mlt_service">brightness</property>
@@ -815,7 +853,7 @@
     <property name="shotcut:hash">939784fb44c10e5c4d7a16890482aec8</property>
     <property name="shotcut:caption">sad face.jpg</property>
     <property name="xml">was here</property>
-    <filter id="filter12" out="00:00:03.683">
+    <filter id="filter13" out="00:00:03.683">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -823,7 +861,7 @@
       <property name="1">0.288</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter13" out="00:00:03.683">
+    <filter id="filter14" out="00:00:03.683">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -837,7 +875,7 @@
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <chain id="chain41" out="00:00:03.733">
+  <chain id="chain43" out="00:00:03.733">
     <property name="length">00:00:03.750</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/kermit.mp4</property>
@@ -849,7 +887,7 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">41986657f1bbc0ecf17876ce426e73a4</property>
     <property name="shotcut:caption">kermit.mp4</property>
-    <filter id="filter14" out="00:00:01.250">
+    <filter id="filter15" out="00:00:01.250">
       <property name="version">0.3</property>
       <property name="mlt_service">frei0r.bluescreen0r</property>
       <property name="threads">0</property>
@@ -857,7 +895,7 @@
       <property name="1">0.288</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter15" out="00:00:01.250">
+    <filter id="filter16" out="00:00:01.250">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -876,17 +914,17 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Overlay</property>
     <blank length="00:00:05.983"/>
-    <entry producer="chain38" in="00:00:00.150" out="00:00:00.250"/>
+    <entry producer="chain40" in="00:00:00.150" out="00:00:00.250"/>
     <blank length="00:00:18.167"/>
-    <entry producer="chain39" in="00:00:00.000" out="00:00:06.017"/>
+    <entry producer="chain41" in="00:00:00.000" out="00:00:06.017"/>
     <blank length="00:00:58.183"/>
-    <entry producer="chain40" in="00:00:06.700" out="00:00:11.400"/>
+    <entry producer="chain42" in="00:00:06.700" out="00:00:11.400"/>
     <blank length="00:03:09.883"/>
     <entry producer="producer3" in="00:00:00.000" out="00:00:03.683"/>
     <blank length="00:00:13.917"/>
-    <entry producer="chain41" in="00:00:00.000" out="00:00:01.250"/>
+    <entry producer="chain43" in="00:00:00.000" out="00:00:01.250"/>
   </playlist>
-  <chain id="chain42" out="00:00:01.217">
+  <chain id="chain44" out="00:00:01.217">
     <property name="length">00:00:01.233</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/COD Hitmarker.mp4</property>
@@ -900,7 +938,7 @@
     <property name="shotcut:caption">COD Hitmarker.mp4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
   </chain>
-  <chain id="chain43" out="00:00:02.000">
+  <chain id="chain45" out="00:00:02.000">
     <property name="length">00:00:02.017</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/fortnite down sound.mp4</property>
@@ -913,7 +951,7 @@
     <property name="shotcut:hash">ab3c9e1d5f60c4f523c88f654d88bf7e</property>
     <property name="shotcut:caption">fortnite down sound.mp4</property>
   </chain>
-  <chain id="chain44" out="00:00:08.150">
+  <chain id="chain46" out="00:00:08.150">
     <property name="length">00:00:08.167</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/tyler1 HELP.mp4</property>
@@ -926,7 +964,7 @@
     <property name="shotcut:hash">5fd94e8525bec6acb31377c2921809dd</property>
     <property name="shotcut:caption">tyler1 HELP.mp4</property>
   </chain>
-  <chain id="chain45" out="00:01:12.100">
+  <chain id="chain47" out="00:01:12.100">
     <property name="length">00:01:12.117</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/shall we begin.mp4</property>
@@ -939,14 +977,14 @@
     <property name="shotcut:hash">ac8ae32ae7e7e6a1f557b1a17b5fabb3</property>
     <property name="shotcut:caption">shall we begin.mp4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter16" in="00:01:04.250" out="00:01:08.117">
+    <filter id="filter17" in="00:01:04.250" out="00:01:08.117">
       <property name="mlt_service">ladspa.1891</property>
       <property name="0">2441</property>
       <property name="1">1</property>
       <property name="wetness">1</property>
       <property name="instances">2</property>
     </filter>
-    <filter id="filter17" in="00:01:04.250" out="00:01:08.117">
+    <filter id="filter18" in="00:01:04.250" out="00:01:08.117">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:03.550=0;00:00:03.867=-60</property>
@@ -955,7 +993,7 @@
       <property name="shotcut:animOut">00:00:00.333</property>
     </filter>
   </chain>
-  <chain id="chain46" out="00:00:03.183">
+  <chain id="chain48" out="00:00:03.183">
     <property name="length">00:00:03.200</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/AAAAA.mp4</property>
@@ -969,7 +1007,7 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">AAAAA.mp4</property>
   </chain>
-  <chain id="chain47" out="00:00:05.900">
+  <chain id="chain49" out="00:00:05.900">
     <property name="length">00:00:05.917</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/ayo the pizza here servitor.mp4</property>
@@ -983,7 +1021,21 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">ayo the pizza here servitor.mp4</property>
   </chain>
-  <chain id="chain48" out="00:00:02.333">
+  <chain id="chain50" out="00:00:07.300">
+    <property name="length">00:00:07.317</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/Addins/nice.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">56d101f3b4ac4ecdd792480172bbc432</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">nice.mp4</property>
+  </chain>
+  <chain id="chain51" out="00:00:02.333">
     <property name="length">00:00:02.350</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/run, ruun.mp4</property>
@@ -997,7 +1049,7 @@
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">run, ruun.mp4</property>
   </chain>
-  <chain id="chain49" out="00:00:02.933">
+  <chain id="chain52" out="00:00:02.933">
     <property name="length">00:00:02.950</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/oof.mp4</property>
@@ -1015,22 +1067,24 @@
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">Overlay Audio</property>
     <blank length="00:00:05.950"/>
-    <entry producer="chain42" in="00:00:00.333" out="00:00:00.533"/>
+    <entry producer="chain44" in="00:00:00.333" out="00:00:00.533"/>
     <blank length="00:01:36.300"/>
-    <entry producer="chain43" in="00:00:00.000" out="00:00:01.267"/>
+    <entry producer="chain45" in="00:00:00.000" out="00:00:01.267"/>
     <blank length="00:00:32.000"/>
-    <entry producer="chain44" in="00:00:00.150" out="00:00:04.467"/>
+    <entry producer="chain46" in="00:00:00.150" out="00:00:04.467"/>
     <blank length="00:00:52.250"/>
-    <entry producer="chain45" in="00:01:04.250" out="00:01:08.117"/>
+    <entry producer="chain47" in="00:01:04.250" out="00:01:08.117"/>
     <blank length="00:00:03.800"/>
-    <entry producer="chain46" in="00:00:00.000" out="00:00:03.183"/>
+    <entry producer="chain48" in="00:00:00.000" out="00:00:03.183"/>
     <blank length="00:00:46.483"/>
-    <entry producer="chain47" in="00:00:00.000" out="00:00:05.900"/>
-    <blank length="00:01:22.183"/>
-    <entry producer="chain48" in="00:00:00.000" out="00:00:02.100"/>
-    <entry producer="chain49" in="00:00:00.567" out="00:00:01.050"/>
+    <entry producer="chain49" in="00:00:00.000" out="00:00:05.900"/>
+    <blank length="00:00:35.900"/>
+    <entry producer="chain50" in="00:00:05.433" out="00:00:07.300"/>
+    <blank length="00:00:51.717"/>
+    <entry producer="chain51" in="00:00:00.000" out="00:00:02.100"/>
+    <entry producer="chain52" in="00:00:00.567" out="00:00:01.050"/>
   </playlist>
-  <chain id="chain50" out="00:04:44.583">
+  <chain id="chain53" out="00:04:44.583">
     <property name="length">00:04:44.600</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/my heart will go on shittyfluted.mp4</property>
@@ -1047,7 +1101,7 @@
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">Music 1</property>
     <blank length="00:04:38.483"/>
-    <entry producer="chain50" in="00:00:20.733" out="00:00:30.500"/>
+    <entry producer="chain53" in="00:00:20.733" out="00:00:30.500"/>
   </playlist>
   <playlist id="playlist5">
     <property name="shotcut:audio">1</property>
@@ -1066,7 +1120,7 @@
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter18" out="00:00:02.983">
+    <filter id="filter19" out="00:00:02.983">
       <property name="argument"></property>
       <property name="geometry">17 806 1569 80 1</property>
       <property name="family">Sans</property>
@@ -1104,7 +1158,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter19" in="00:00:03.000" out="00:00:06.150">
+    <filter id="filter20" in="00:00:03.000" out="00:00:06.150">
       <property name="argument"></property>
       <property name="geometry">17 806 1569 80 1</property>
       <property name="family">Sans</property>
@@ -1129,7 +1183,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter20" in="00:00:03.000" out="00:00:06.150">
+    <filter id="filter21" in="00:00:03.000" out="00:00:06.150">
       <property name="start">1</property>
       <property name="level">00:00:02.833=1;00:00:03.150=0</property>
       <property name="mlt_service">brightness</property>
@@ -1169,7 +1223,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter21" out="00:00:07.450">
+    <filter id="filter22" out="00:00:07.450">
       <property name="argument"></property>
       <property name="geometry">767 290 431 96 1</property>
       <property name="family">Sans</property>
@@ -1194,7 +1248,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter22" out="00:00:07.450">
+    <filter id="filter23" out="00:00:07.450">
       <property name="argument"></property>
       <property name="geometry">168 747 1322 93 1</property>
       <property name="family">Sans</property>
@@ -1232,7 +1286,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter23" out="00:00:04.800">
+    <filter id="filter24" out="00:00:04.800">
       <property name="argument"></property>
       <property name="geometry">420 727 431 96 1</property>
       <property name="family">Sans</property>
@@ -1289,7 +1343,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter24" out="00:00:01.617">
+    <filter id="filter25" out="00:00:01.617">
       <property name="argument"></property>
       <property name="geometry">456 293 489 150 1</property>
       <property name="family">Sans</property>
@@ -1327,7 +1381,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter25" out="00:00:00.317">
+    <filter id="filter26" out="00:00:00.317">
       <property name="argument"></property>
       <property name="geometry">591 587 186 93 1</property>
       <property name="family">Sans</property>
@@ -1352,7 +1406,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter26" out="00:00:00.317">
+    <filter id="filter27" out="00:00:00.317">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1379,7 +1433,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter27" in="00:00:00.333" out="00:00:00.350">
+    <filter id="filter28" in="00:00:00.333" out="00:00:00.350">
       <property name="argument"></property>
       <property name="geometry">591 587 186 93 1</property>
       <property name="family">Sans</property>
@@ -1404,7 +1458,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter28" in="00:00:00.333" out="00:00:00.350">
+    <filter id="filter29" in="00:00:00.333" out="00:00:00.350">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1431,7 +1485,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter29" out="00:00:01.033">
+    <filter id="filter30" out="00:00:01.033">
       <property name="argument"></property>
       <property name="geometry">864 615 411 178 1</property>
       <property name="family">Sans</property>
@@ -1456,7 +1510,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter30" out="00:00:01.033">
+    <filter id="filter31" out="00:00:01.033">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1483,7 +1537,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter31" in="00:00:01.050" out="00:00:02.033">
+    <filter id="filter32" in="00:00:01.050" out="00:00:02.033">
       <property name="argument"></property>
       <property name="geometry">864 615 411 178 1</property>
       <property name="family">Sans</property>
@@ -1508,7 +1562,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter32" in="00:00:01.050" out="00:00:02.033">
+    <filter id="filter33" in="00:00:01.050" out="00:00:02.033">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1535,7 +1589,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter33" in="00:00:02.050" out="00:00:02.917">
+    <filter id="filter34" in="00:00:02.050" out="00:00:02.917">
       <property name="argument"></property>
       <property name="geometry">864 615 411 178 1</property>
       <property name="family">Sans</property>
@@ -1560,7 +1614,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter34" in="00:00:02.050" out="00:00:02.917">
+    <filter id="filter35" in="00:00:02.050" out="00:00:02.917">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -1587,7 +1641,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter35" out="00:00:03.983">
+    <filter id="filter36" out="00:00:03.983">
       <property name="argument"></property>
       <property name="geometry">924 239 526 246 1</property>
       <property name="family">Sans</property>
@@ -1626,7 +1680,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter36" out="00:00:03.983">
+    <filter id="filter37" out="00:00:03.983">
       <property name="argument"></property>
       <property name="geometry">779 515 519 93 1</property>
       <property name="family">Sans</property>
@@ -1651,7 +1705,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter37" out="00:00:03.983">
+    <filter id="filter38" out="00:00:03.983">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.983=1</property>
       <property name="mlt_service">brightness</property>
@@ -1659,7 +1713,7 @@ p, li { white-space: pre-wrap; }
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter38" out="00:00:03.983">
+    <filter id="filter39" out="00:00:03.983">
       <property name="start">1</property>
       <property name="level">00:00:03.500=1;00:00:03.983=0</property>
       <property name="mlt_service">brightness</property>
@@ -1680,7 +1734,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter39" out="00:00:00.633">
+    <filter id="filter40" out="00:00:00.633">
       <property name="argument"></property>
       <property name="geometry">899 351 332 101 1</property>
       <property name="family">Sans</property>
@@ -1705,7 +1759,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter40" out="00:00:00.633">
+    <filter id="filter41" out="00:00:00.633">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
