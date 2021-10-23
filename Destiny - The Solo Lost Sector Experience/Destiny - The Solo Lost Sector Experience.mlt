@@ -281,9 +281,9 @@ p, li { white-space: pre-wrap; }
     <transition id="transition1" out="00:00:00.167">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <chain id="chain9" out="00:00:01.217">
@@ -352,7 +352,12 @@ p, li { white-space: pre-wrap; }
   </playlist>
   <playlist id="playlist4">
     <property name="shotcut:audio">1</property>
-    <property name="shotcut:name">Music</property>
+    <property name="shotcut:name">Music 1</property>
+    <blank length="00:00:00.017"/>
+  </playlist>
+  <playlist id="playlist5">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">Music 2</property>
     <blank length="00:00:00.017"/>
   </playlist>
   <tractor id="tractor1" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:37.600">
@@ -367,6 +372,7 @@ p, li { white-space: pre-wrap; }
     <track producer="playlist2"/>
     <track producer="playlist3" hide="video"/>
     <track producer="playlist4" hide="video"/>
+    <track producer="playlist5" hide="video"/>
     <transition id="transition2">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -422,6 +428,13 @@ p, li { white-space: pre-wrap; }
     <transition id="transition9">
       <property name="a_track">0</property>
       <property name="b_track">5</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition10">
+      <property name="a_track">0</property>
+      <property name="b_track">6</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
