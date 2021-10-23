@@ -275,7 +275,7 @@
     <property name="creation_time">2021-10-11T20:34:14</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
-    <filter id="filter0" in="00:01:47.850" out="00:20:37.600">
+    <filter id="filter0" in="00:01:47.850" out="00:02:15.733">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.400=1</property>
       <property name="mlt_service">brightness</property>
@@ -284,16 +284,6 @@
       <property name="shotcut:animIn">00:00:00.417</property>
     </filter>
   </chain>
-  <playlist id="playlist0">
-    <property name="shotcut:video">1</property>
-    <property name="shotcut:name">B-Roll</property>
-    <blank length="00:00:06.483"/>
-    <entry producer="chain14" in="00:00:06.483" out="00:00:24.250"/>
-    <blank length="00:00:11.817"/>
-    <entry producer="chain15" in="00:00:36.083" out="00:01:42.450"/>
-    <blank length="00:00:05.383"/>
-    <entry producer="chain16" in="00:01:47.850" out="00:20:37.600"/>
-  </playlist>
   <chain id="chain17" out="00:20:37.600">
     <property name="length">00:20:37.617</property>
     <property name="eof">pause</property>
@@ -309,6 +299,18 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
   </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">B-Roll</property>
+    <blank length="00:00:06.483"/>
+    <entry producer="chain14" in="00:00:06.483" out="00:00:24.250"/>
+    <blank length="00:00:11.817"/>
+    <entry producer="chain15" in="00:00:36.083" out="00:01:42.450"/>
+    <blank length="00:00:05.383"/>
+    <entry producer="chain16" in="00:01:47.850" out="00:02:15.733"/>
+    <blank length="00:00:02.933"/>
+    <entry producer="chain17" in="00:02:18.683" out="00:20:37.600"/>
+  </playlist>
   <chain id="chain18" out="00:20:37.600">
     <property name="length">00:20:37.617</property>
     <property name="eof">pause</property>
@@ -368,6 +370,21 @@
     <property name="creation_time">2021-10-11T20:34:14</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+  </chain>
+  <chain id="chain22" out="00:20:37.600">
+    <property name="length">00:20:37.617</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/BRoll/Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">47a693d9bde7de68f7e3d990f733e881</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2021-10-11T20:34:14</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
     <filter id="filter1" in="00:01:46.233" out="00:01:47.833">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
@@ -391,18 +408,35 @@
       <property name="shotcut:animOut">00:00:00.417</property>
     </filter>
   </chain>
+  <chain id="chain23" out="00:20:37.600">
+    <property name="length">00:20:37.617</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/BRoll/Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">47a693d9bde7de68f7e3d990f733e881</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2021-10-11T20:34:14</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Destiny 2 2021.10.11 - 13.13.35.02 - Low Conversion.mp4</property>
+  </chain>
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Output</property>
-    <entry producer="chain17" in="00:00:00.000" out="00:00:05.617"/>
-    <entry producer="chain18" in="00:00:05.633" out="00:00:06.467"/>
+    <entry producer="chain18" in="00:00:00.000" out="00:00:05.617"/>
+    <entry producer="chain19" in="00:00:05.633" out="00:00:06.467"/>
     <blank length="00:00:17.783"/>
-    <entry producer="chain19" in="00:00:24.267" out="00:00:36.067"/>
+    <entry producer="chain20" in="00:00:24.267" out="00:00:36.067"/>
     <blank length="00:01:06.383"/>
-    <entry producer="chain20" in="00:01:42.467" out="00:01:46.217"/>
-    <entry producer="chain21" in="00:01:46.233" out="00:01:47.833"/>
+    <entry producer="chain21" in="00:01:42.467" out="00:01:46.217"/>
+    <entry producer="chain22" in="00:01:46.233" out="00:01:47.833"/>
+    <blank length="00:00:27.900"/>
+    <entry producer="chain23" in="00:02:15.750" out="00:02:18.667"/>
   </playlist>
-  <chain id="chain22" out="00:00:01.217">
+  <chain id="chain24" out="00:00:01.217">
     <property name="length">00:00:01.233</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/COD Hitmarker.mp4</property>
@@ -438,7 +472,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </chain>
-  <chain id="chain23" out="00:00:06.017">
+  <chain id="chain25" out="00:00:06.017">
     <property name="length">00:00:06.033</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/Facepalm.mp4</property>
@@ -493,11 +527,11 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Overlay</property>
     <blank length="00:00:05.983"/>
-    <entry producer="chain22" in="00:00:00.150" out="00:00:00.250"/>
+    <entry producer="chain24" in="00:00:00.150" out="00:00:00.250"/>
     <blank length="00:00:18.167"/>
-    <entry producer="chain23" in="00:00:00.000" out="00:00:06.017"/>
+    <entry producer="chain25" in="00:00:00.000" out="00:00:06.017"/>
   </playlist>
-  <chain id="chain24" out="00:00:01.217">
+  <chain id="chain26" out="00:00:01.217">
     <property name="length">00:00:01.233</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/COD Hitmarker.mp4</property>
@@ -511,7 +545,7 @@
     <property name="shotcut:caption">COD Hitmarker.mp4</property>
     <property name="shotcut:defaultAudioIndex">1</property>
   </chain>
-  <chain id="chain25" out="00:00:02.000">
+  <chain id="chain27" out="00:00:02.000">
     <property name="length">00:00:02.017</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Videos/Projects/Destiny/Addins/fortnite down sound.mp4</property>
@@ -524,13 +558,28 @@
     <property name="shotcut:hash">ab3c9e1d5f60c4f523c88f654d88bf7e</property>
     <property name="shotcut:caption">fortnite down sound.mp4</property>
   </chain>
+  <chain id="chain28" out="00:00:08.150">
+    <property name="length">00:00:08.167</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Videos/Projects/Destiny/Addins/tyler1 HELP.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5fd94e8525bec6acb31377c2921809dd</property>
+    <property name="shotcut:caption">tyler1 HELP.mp4</property>
+  </chain>
   <playlist id="playlist3">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">Overlay Audio</property>
     <blank length="00:00:05.950"/>
-    <entry producer="chain24" in="00:00:00.333" out="00:00:00.533"/>
+    <entry producer="chain26" in="00:00:00.333" out="00:00:00.533"/>
     <blank length="00:01:36.300"/>
-    <entry producer="chain25" in="00:00:00.000" out="00:00:01.267"/>
+    <entry producer="chain27" in="00:00:00.000" out="00:00:01.267"/>
+    <blank length="00:00:32.000"/>
+    <entry producer="chain28" in="00:00:00.150" out="00:00:04.467"/>
   </playlist>
   <playlist id="playlist4">
     <property name="shotcut:audio">1</property>
@@ -803,6 +852,162 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
   </producer>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter16" out="00:00:01.033">
+      <property name="argument"></property>
+      <property name="geometry">864 615 411 178 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; color:#aa0000;&quot;&gt;Where you aiming at?!?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter17" out="00:00:01.033">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-127 -69 1840 1035 1;00:00:00.083=-124 -106 1840 1035 1;00:00:00.167=-2 -117 1840 1035 1;00:00:00.233=-117 -81 1840 1035 1;00:00:00.317=-120 -124 1840 1035 1;00:00:00.400=-164 -50 1840 1035 1;00:00:00.483=-106 -100 1840 1035 1;00:00:00.567=-80 -55 1840 1035 1;00:00:00.633=-48 -55 1840 1035 1;00:00:00.717=-52 -32 1840 1035 1;00:00:00.800=-84 -64 1840 1035 1;00:00:00.883=-94 -32 1840 1035 1;00:00:00.967=-175 -84 1840 1035 1;00:00:01.033=-120 -67 1840 1035 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter18" in="00:00:01.050" out="00:00:02.033">
+      <property name="argument"></property>
+      <property name="geometry">864 615 411 178 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; color:#aa0000;&quot;&gt;Where you aiming at?!?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter19" in="00:00:01.050" out="00:00:02.033">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-127 -69 1840 1035 1;00:00:00.083=-124 -106 1840 1035 1;00:00:00.167=-2 -117 1840 1035 1;00:00:00.233=-117 -81 1840 1035 1;00:00:00.317=-120 -124 1840 1035 1;00:00:00.400=-164 -50 1840 1035 1;00:00:00.483=-106 -100 1840 1035 1;00:00:00.567=-80 -55 1840 1035 1;00:00:00.633=-48 -55 1840 1035 1;00:00:00.717=-52 -32 1840 1035 1;00:00:00.800=-84 -64 1840 1035 1;00:00:00.883=-94 -32 1840 1035 1;00:00:00.967=-175 -84 1840 1035 1;00:00:01.033=-120 -67 1840 1035 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter20" in="00:00:02.050" out="00:00:02.917">
+      <property name="argument"></property>
+      <property name="geometry">864 615 411 178 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:35pt; color:#aa0000;&quot;&gt;Where you aiming at?!?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter21" in="00:00:02.050" out="00:00:02.917">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:00.000=-127 -69 1840 1035 1;00:00:00.083=-124 -106 1840 1035 1;00:00:00.167=-2 -117 1840 1035 1;00:00:00.233=-117 -81 1840 1035 1;00:00:00.317=-120 -124 1840 1035 1;00:00:00.400=-164 -50 1840 1035 1;00:00:00.483=-106 -100 1840 1035 1;00:00:00.567=-80 -55 1840 1035 1;00:00:00.633=-48 -55 1840 1035 1;00:00:00.717=-52 -32 1840 1035 1;00:00:00.800=-84 -64 1840 1035 1;00:00:00.883=-94 -32 1840 1035 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
   <playlist id="playlist6">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Text</property>
@@ -815,6 +1020,10 @@ p, li { white-space: pre-wrap; }
     <entry producer="producer5" in="00:00:00.467" out="00:00:04.800"/>
     <blank length="00:01:10.150"/>
     <entry producer="producer6" in="00:00:00.000" out="00:00:01.617"/>
+    <blank length="00:00:27.883"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:01.033"/>
+    <entry producer="producer8" in="00:00:01.050" out="00:00:02.033"/>
+    <entry producer="producer9" in="00:00:02.050" out="00:00:02.917"/>
   </playlist>
   <tractor id="tractor2" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:37.600">
     <property name="shotcut">1</property>
