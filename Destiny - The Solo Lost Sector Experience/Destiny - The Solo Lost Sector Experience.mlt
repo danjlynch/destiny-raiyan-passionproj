@@ -359,6 +359,7 @@
     <property name="mlt_service">qimage</property>
     <property name="creation_time">2021-10-23T23:13:26</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">22c1df730065c19f056b0a5f29d1ebde</property>
   </producer>
   <chain id="chain25" out="00:00:30.033">
     <property name="length">00:00:30.050</property>
@@ -370,6 +371,7 @@
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">0513576b09cc252763171a8ef80bfe2c</property>
   </chain>
   <chain id="chain26" out="00:00:06.933">
     <property name="length">00:00:06.950</property>
@@ -381,6 +383,7 @@
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">e6d64a7d5b973f82fd94db9baa8ff4c3</property>
   </chain>
   <chain id="chain27" out="00:00:01.117">
     <property name="length">00:00:01.133</property>
@@ -392,6 +395,7 @@
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">50e1f5d157a7637b129792e627f29a64</property>
   </chain>
   <chain id="chain28" out="00:00:15.583">
     <property name="length">00:00:15.600</property>
@@ -403,6 +407,7 @@
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="xml">was here</property>
+    <property name="shotcut:hash">a58e31bf320e7abca9a4296dd62174fb</property>
   </chain>
   <playlist id="main_bin" title="Shotcut version 21.09.22">
     <property name="shotcut:projectAudioChannels">2</property>
@@ -441,8 +446,8 @@
     <entry producer="chain27" in="00:00:00.000" out="00:00:01.117"/>
     <entry producer="chain28" in="00:00:00.000" out="00:00:15.583"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:20:27.083">
-    <property name="length">00:20:27.100</property>
+  <producer id="black" in="00:00:00.000" out="00:20:40.833">
+    <property name="length">00:20:40.850</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -451,7 +456,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:20:27.083"/>
+    <entry producer="black" in="00:00:00.000" out="00:20:40.833"/>
   </playlist>
   <chain id="chain29" out="00:20:37.600">
     <property name="length">00:20:37.617</property>
@@ -2309,6 +2314,84 @@ p, li { white-space: pre-wrap; }
     <property name="xml">was here</property>
     <property name="seekable">1</property>
   </producer>
+  <producer id="producer27" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter56" out="00:00:13.733">
+      <property name="argument"></property>
+      <property name="geometry">00:00:00.000=160/900:1280x10000;00:00:13.733=160/-3005:1280x10000</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Credits&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt; font-weight:600;&quot;&gt;Created By&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Raiyan Lynch&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt; font-weight:600;&quot;&gt;Directed By&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Raiyan Lynch&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt; font-weight:600;&quot;&gt;Produced By&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Raiyan Lynch&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt; font-weight:600;&quot;&gt;Player&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Raiyan Lynch&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt; font-weight:600;&quot;&gt;Boss Servitor&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Himself&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt; font-weight:600;&quot;&gt;Cinematographer&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Raiyan Lynch&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt; font-weight:600;&quot;&gt;General Busybody&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Dan Lynch&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt; font-weight:600;&quot;&gt;Caterer&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Susnita Lynch&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt; font-weight:600;&quot;&gt;Brother&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Arun Lynch&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt; font-weight:600;&quot;&gt;Cuddly Buddy&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:32pt;&quot;&gt;Jasper Lynch (The Dog)&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:20pt; font-style:italic;&quot;&gt;Many Fallen vandals were harmed in the making of this video.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:32pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:15pt;&quot;&gt;This is a work of fiction. Names, characters, places and incidents either are products of the author’s imagination or are used fictitiously. Any resemblance to actual events or locales or persons, living or dead, is entirely intentional.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:13.750</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="shotcut:preset">scroll-up</property>
+    </filter>
+  </producer>
   <playlist id="playlist6">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Text</property>
@@ -2343,6 +2426,8 @@ p, li { white-space: pre-wrap; }
     <entry producer="producer24" in="00:00:00.000" out="00:00:02.633"/>
     <entry producer="producer25" in="00:00:02.650" out="00:00:03.067"/>
     <entry producer="producer26" in="00:00:03.083" out="00:00:05.633"/>
+    <blank length="00:00:53.300"/>
+    <entry producer="producer27" in="00:00:00.000" out="00:00:13.733"/>
   </playlist>
   <chain id="chain65" out="00:02:09.667">
     <property name="length">00:02:09.683</property>
@@ -2356,7 +2441,7 @@ p, li { white-space: pre-wrap; }
     <property name="xml">was here</property>
     <property name="shotcut:hash">70a2bbcd3897732939c2e306c2a93a9a</property>
     <property name="shotcut:caption">monster's inc theme.mp4</property>
-    <filter id="filter56" out="00:01:20.817">
+    <filter id="filter57" out="00:01:20.817">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:01:20.333=0;00:01:20.817=-60</property>
@@ -2377,7 +2462,7 @@ p, li { white-space: pre-wrap; }
     <property name="xml">was here</property>
     <property name="shotcut:hash">70a2bbcd3897732939c2e306c2a93a9a</property>
     <property name="shotcut:caption">monster's inc theme.mp4</property>
-    <filter id="filter57" in="00:01:20.833" out="00:02:09.667">
+    <filter id="filter58" in="00:01:20.833" out="00:02:09.667">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:00.000=-60;00:00:00.483=0</property>
@@ -2394,7 +2479,7 @@ p, li { white-space: pre-wrap; }
     <blank length="00:00:14.717"/>
     <entry producer="chain66" in="00:01:20.833" out="00:02:09.667"/>
   </playlist>
-  <tractor id="tractor2" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:27.083">
+  <tractor id="tractor2" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:40.833">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
