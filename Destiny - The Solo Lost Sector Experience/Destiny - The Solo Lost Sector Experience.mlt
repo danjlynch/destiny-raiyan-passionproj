@@ -1837,7 +1837,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer12" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -1902,7 +1902,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer13" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -1965,7 +1965,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer14" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2022,7 +2022,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer15" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2066,7 +2066,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer16" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2075,7 +2075,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter39" out="00:00:00.700">
+    <filter id="filter39" out="00:00:03.600">
       <property name="argument"></property>
       <property name="geometry">160 90 1280 798 1</property>
       <property name="family">Sans</property>
@@ -2112,7 +2112,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer17" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2152,7 +2152,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer18" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2190,7 +2190,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer19" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2228,7 +2228,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer20" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2281,7 +2281,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer21" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2334,7 +2334,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer22" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2387,7 +2387,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer23" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2440,7 +2440,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer24" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2484,7 +2484,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer25" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2522,7 +2522,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer26" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2574,7 +2574,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer27" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2626,7 +2626,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer28" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2671,7 +2671,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer29" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2723,7 +2723,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer30" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2775,7 +2775,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer31" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2827,7 +2827,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer32" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2869,7 +2869,7 @@ p, li { white-space: pre-wrap; }
   <producer id="producer33" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2911,10 +2911,10 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
   </producer>
-  <producer id="producer34" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer44" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2925,7 +2925,7 @@ p, li { white-space: pre-wrap; }
     <property name="seekable">1</property>
     <filter id="filter66" out="00:00:03.983">
       <property name="argument"></property>
-      <property name="geometry">924 239 526 246 1</property>
+      <property name="geometry">160 90 1280 720 1</property>
       <property name="family">Sans</property>
       <property name="size">48</property>
       <property name="weight">400</property>
@@ -2944,16 +2944,17 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:30pt; font-weight:600; color:#ffffff;&quot;&gt;Best Grenade Launcher IN ----&amp;gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:30pt; font-weight:600; color:#ffffff;&quot;&gt; THE GAME!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;Missed.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;The.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana'; font-size:72pt; font-weight:600; color:#ffffff;&quot;&gt;Crit.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
   </producer>
-  <producer id="producer35" in="00:00:00.000" out="03:59:59.983">
+  <producer id="producer34" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/danjl/AppData/Local/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -2963,6 +2964,45 @@ p, li { white-space: pre-wrap; }
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <filter id="filter67" out="00:00:03.983">
+      <property name="argument"></property>
+      <property name="geometry">924 239 526 368 1</property>
+      <property name="family">Sans</property>
+      <property name="size">48</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">0x000000ff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">0x00000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="pixel_ratio">1</property>
+      <property name="mlt_service">qtext</property>
+      <property name="shotcut:filter">richText</property>
+      <property name="html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:30pt; font-weight:600; color:#ffffff;&quot;&gt;Best Grenade Launcher ----&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:30pt; font-weight:600; color:#ffffff;&quot;&gt;IN. THE. GAME!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer35" in="00:00:00.000" out="03:59:59.983">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <filter id="filter68" out="00:00:03.983">
       <property name="argument"></property>
       <property name="geometry">779 515 519 93 1</property>
       <property name="family">Sans</property>
@@ -2987,7 +3027,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter68" out="00:00:03.983">
+    <filter id="filter69" out="00:00:03.983">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.983=1</property>
       <property name="mlt_service">brightness</property>
@@ -2995,7 +3035,7 @@ p, li { white-space: pre-wrap; }
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter69" out="00:00:03.983">
+    <filter id="filter70" out="00:00:03.983">
       <property name="start">1</property>
       <property name="level">00:00:03.500=1;00:00:03.983=0</property>
       <property name="mlt_service">brightness</property>
@@ -3004,6 +3044,25 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animOut">00:00:00.500</property>
     </filter>
   </producer>
+  <tractor id="tractor2" in="00:00:00.000" out="00:00:00.033">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer34" in="00:00:03.950" out="00:00:03.983"/>
+    <track producer="producer35" in="00:00:00.000" out="00:00:00.033"/>
+    <transition id="transition4" out="00:00:00.033">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition5" out="00:00:00.033">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
   <producer id="producer36" in="00:00:00.000" out="03:59:59.983">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
@@ -3029,7 +3088,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter70" in="00:00:04.267" out="00:00:06.300">
+    <filter id="filter71" in="00:00:04.267" out="00:00:06.300">
       <property name="argument"></property>
       <property name="geometry">160 90 1280 720 1</property>
       <property name="family">Sans</property>
@@ -3073,7 +3132,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter71" out="00:00:03.983">
+    <filter id="filter72" out="00:00:03.983">
       <property name="argument"></property>
       <property name="geometry">160 90 1280 720 1</property>
       <property name="family">Sans</property>
@@ -3118,7 +3177,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter72" out="00:00:00.633">
+    <filter id="filter73" out="00:00:00.633">
       <property name="argument"></property>
       <property name="geometry">899 351 332 101 1</property>
       <property name="family">Sans</property>
@@ -3143,7 +3202,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter73" out="00:00:00.633">
+    <filter id="filter74" out="00:00:00.633">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -3170,7 +3229,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter74" out="00:00:02.633">
+    <filter id="filter75" out="00:00:02.633">
       <property name="argument"></property>
       <property name="geometry">55 59 441 343 1</property>
       <property name="family">Sans</property>
@@ -3195,7 +3254,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter75" out="00:00:02.633">
+    <filter id="filter76" out="00:00:02.633">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -3247,7 +3306,7 @@ p, li { white-space: pre-wrap; }
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
-    <filter id="filter76" out="00:00:13.733">
+    <filter id="filter77" out="00:00:13.733">
       <property name="argument"></property>
       <property name="geometry">00:00:00.000=160/900:1280x10000;00:00:13.733=160/-3005:1280x10000</property>
       <property name="family">Sans</property>
@@ -3326,8 +3385,8 @@ p, li { white-space: pre-wrap; }
     <blank length="00:00:03.483"/>
     <entry producer="producer15" in="00:00:00.000" out="00:00:03.983"/>
     <blank length="00:00:04.117"/>
-    <entry producer="producer16" in="00:00:00.000" out="00:00:00.700"/>
-    <blank length="00:00:05.533"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:03.600"/>
+    <blank length="00:00:02.633"/>
     <entry producer="producer17" in="00:00:02.050" out="00:00:03.633"/>
     <blank length="00:00:04.483"/>
     <entry producer="producer18" in="00:00:00.000" out="00:00:20.817"/>
@@ -3353,9 +3412,12 @@ p, li { white-space: pre-wrap; }
     <entry producer="producer32" in="00:00:00.000" out="00:00:01.233"/>
     <blank length="00:00:05.067"/>
     <entry producer="producer33" in="00:00:00.000" out="00:00:07.550"/>
-    <blank length="00:00:32.150"/>
-    <entry producer="producer34" in="00:00:00.000" out="00:00:03.983"/>
-    <entry producer="producer35" in="00:00:00.000" out="00:00:03.983"/>
+    <blank length="00:00:16.033"/>
+    <entry producer="producer44" in="00:00:00.000" out="00:00:03.983"/>
+    <blank length="00:00:12.167"/>
+    <entry producer="producer34" in="00:00:00.000" out="00:00:03.933"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:00.033"/>
+    <entry producer="producer35" in="00:00:00.050" out="00:00:03.983"/>
     <blank length="00:00:36.083"/>
     <entry producer="producer36" in="00:00:00.000" out="00:00:04.250"/>
     <entry producer="producer37" in="00:00:04.267" out="00:00:06.300"/>
@@ -3381,7 +3443,7 @@ p, li { white-space: pre-wrap; }
     <property name="xml">was here</property>
     <property name="shotcut:hash">70a2bbcd3897732939c2e306c2a93a9a</property>
     <property name="shotcut:caption">monster's inc theme.mp4</property>
-    <filter id="filter77" out="00:01:20.817">
+    <filter id="filter78" out="00:01:20.817">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:01:19.500=0;00:01:20.817=-60</property>
@@ -3389,7 +3451,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:filter">fadeOutVolume</property>
       <property name="shotcut:animOut">00:00:01.333</property>
     </filter>
-    <filter id="filter78" out="00:01:20.817">
+    <filter id="filter79" out="00:01:20.817">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-8.9</property>
@@ -3408,7 +3470,7 @@ p, li { white-space: pre-wrap; }
     <property name="xml">was here</property>
     <property name="shotcut:hash">70a2bbcd3897732939c2e306c2a93a9a</property>
     <property name="shotcut:caption">monster's inc theme.mp4</property>
-    <filter id="filter79" in="00:01:20.833" out="00:02:09.667">
+    <filter id="filter80" in="00:01:20.833" out="00:02:09.667">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:00.000=-60;00:00:00.483=0</property>
@@ -3430,13 +3492,13 @@ p, li { white-space: pre-wrap; }
     <property name="shotcut:hash">63325924570260ddf9332b1aab4d8db9</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">montage music- wow wow.mp4</property>
-    <filter id="filter80" out="00:00:24.650">
+    <filter id="filter81" out="00:00:24.650">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-7.6</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter81" out="00:00:24.650">
+    <filter id="filter82" out="00:00:24.650">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:24.167=0;00:00:24.650=-60</property>
@@ -3458,13 +3520,13 @@ p, li { white-space: pre-wrap; }
     <property name="shotcut:hash">63325924570260ddf9332b1aab4d8db9</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">montage music- wow wow.mp4</property>
-    <filter id="filter82" in="00:00:24.667" out="00:00:39.533">
+    <filter id="filter83" in="00:00:24.667" out="00:00:39.533">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-7.6</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter83" in="00:00:24.667" out="00:00:39.533">
+    <filter id="filter84" in="00:00:24.667" out="00:00:39.533">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:00.000=-60;00:00:00.483=0</property>
@@ -3472,7 +3534,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:filter">fadeInVolume</property>
       <property name="shotcut:animIn">00:00:00.500</property>
     </filter>
-    <filter id="filter84" in="00:00:24.667" out="00:00:39.533">
+    <filter id="filter85" in="00:00:24.667" out="00:00:39.533">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:14.383=0;00:00:14.867=-60</property>
@@ -3494,13 +3556,13 @@ p, li { white-space: pre-wrap; }
     <property name="shotcut:hash">63325924570260ddf9332b1aab4d8db9</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">montage music- wow wow.mp4</property>
-    <filter id="filter85" in="00:00:45.467" out="00:00:47.000">
+    <filter id="filter86" in="00:00:45.467" out="00:00:47.000">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-7.6</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter86" in="00:00:39.550" out="00:00:47.000">
+    <filter id="filter87" in="00:00:39.550" out="00:00:47.000">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:00.000=-60;00:00:00.483=0</property>
@@ -3508,7 +3570,7 @@ p, li { white-space: pre-wrap; }
       <property name="shotcut:filter">fadeInVolume</property>
       <property name="shotcut:animIn">00:00:00.500</property>
     </filter>
-    <filter id="filter87" in="00:00:39.550" out="00:00:47.000">
+    <filter id="filter88" in="00:00:39.550" out="00:00:47.000">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:06.967=0;00:00:07.450=-60</property>
@@ -3530,13 +3592,13 @@ p, li { white-space: pre-wrap; }
     <property name="shotcut:hash">63325924570260ddf9332b1aab4d8db9</property>
     <property name="ignore_points">0</property>
     <property name="shotcut:caption">montage music- wow wow.mp4</property>
-    <filter id="filter88" in="00:00:45.467" out="00:03:29.083">
+    <filter id="filter89" in="00:00:45.467" out="00:03:29.083">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-7.6</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter89" in="00:00:47.017" out="00:03:29.083">
+    <filter id="filter90" in="00:00:47.017" out="00:03:29.083">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:00.000=-60;00:00:00.483=0</property>
@@ -3561,26 +3623,12 @@ p, li { white-space: pre-wrap; }
     <blank length="00:00:08.800"/>
     <entry producer="chain90" in="00:00:47.017" out="00:03:29.083"/>
   </playlist>
-  <producer id="producer44" in="00:00:00.000" out="03:59:59.983">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">#00000000</property>
-    <property name="aspect_ratio">1</property>
-    <property name="mlt_service">color</property>
-    <property name="mlt_image_format">rgba</property>
-    <property name="shotcut:caption">transparent</property>
-    <property name="shotcut:detail">transparent</property>
-    <property name="ignore_points">0</property>
-    <property name="xml">was here</property>
-    <property name="seekable">1</property>
-  </producer>
   <playlist id="playlist8">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">SCRATCH</property>
-    <blank length="00:02:49.767"/>
-    <entry producer="producer44" in="00:00:00.000" out="00:00:03.983"/>
+    <blank length="00:00:00.017"/>
   </playlist>
-  <tractor id="tractor2" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:50.867">
+  <tractor id="tractor3" title="Shotcut version 21.09.22" in="00:00:00.000" out="00:20:50.867">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
@@ -3596,14 +3644,14 @@ p, li { white-space: pre-wrap; }
     <track producer="playlist6" hide="audio"/>
     <track producer="playlist7" hide="video"/>
     <track producer="playlist8"/>
-    <transition id="transition4">
+    <transition id="transition6">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition5">
+    <transition id="transition7">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="version">0.9</property>
@@ -3611,31 +3659,16 @@ p, li { white-space: pre-wrap; }
       <property name="threads">0</property>
       <property name="disable">1</property>
     </transition>
-    <transition id="transition6">
-      <property name="a_track">0</property>
-      <property name="b_track">2</property>
-      <property name="mlt_service">mix</property>
-      <property name="always_active">1</property>
-      <property name="sum">1</property>
-    </transition>
-    <transition id="transition7">
-      <property name="a_track">1</property>
-      <property name="b_track">2</property>
-      <property name="version">0.9</property>
-      <property name="mlt_service">frei0r.cairoblend</property>
-      <property name="threads">0</property>
-      <property name="disable">0</property>
-    </transition>
     <transition id="transition8">
       <property name="a_track">0</property>
-      <property name="b_track">3</property>
+      <property name="b_track">2</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
     <transition id="transition9">
       <property name="a_track">1</property>
-      <property name="b_track">3</property>
+      <property name="b_track">2</property>
       <property name="version">0.9</property>
       <property name="mlt_service">frei0r.cairoblend</property>
       <property name="threads">0</property>
@@ -3643,33 +3676,48 @@ p, li { white-space: pre-wrap; }
     </transition>
     <transition id="transition10">
       <property name="a_track">0</property>
-      <property name="b_track">4</property>
+      <property name="b_track">3</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
     <transition id="transition11">
-      <property name="a_track">0</property>
-      <property name="b_track">5</property>
-      <property name="mlt_service">mix</property>
-      <property name="always_active">1</property>
-      <property name="sum">1</property>
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
     </transition>
     <transition id="transition12">
       <property name="a_track">0</property>
-      <property name="b_track">6</property>
+      <property name="b_track">4</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
     <transition id="transition13">
       <property name="a_track">0</property>
-      <property name="b_track">7</property>
+      <property name="b_track">5</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
     <transition id="transition14">
+      <property name="a_track">0</property>
+      <property name="b_track">6</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition15">
+      <property name="a_track">0</property>
+      <property name="b_track">7</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition16">
       <property name="a_track">1</property>
       <property name="b_track">7</property>
       <property name="version">0.9</property>
@@ -3677,21 +3725,21 @@ p, li { white-space: pre-wrap; }
       <property name="threads">0</property>
       <property name="disable">0</property>
     </transition>
-    <transition id="transition15">
+    <transition id="transition17">
       <property name="a_track">0</property>
       <property name="b_track">8</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition16">
+    <transition id="transition18">
       <property name="a_track">0</property>
       <property name="b_track">9</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition17">
+    <transition id="transition19">
       <property name="a_track">1</property>
       <property name="b_track">9</property>
       <property name="version">0.9</property>
